@@ -4,6 +4,10 @@
 }
 
 * {
-  /* background: var(--bgcolor);
-  color: var(--fontcolor) ; */
+  background: var(--bgcolor);
+  color: var(--fontcolor);
+}
+
+.col .card {
+  background-color: var(--bgcolor);
 }
