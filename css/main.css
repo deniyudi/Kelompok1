@@ -10,6 +10,12 @@
   font-family: "Inter", sans-serif;
 }
 
+img:hover{
+  opacity: 0.6;
+  transition: 0.3s;
+
+}
+
 /* CARD ATAS */
 
 .news-game{
@@ -51,5 +57,11 @@
 
 /* CARD BAWAH */
 .article-game{
-  margin-top: 7%;
+  margin-top: 4%;
+}
+
+
+.article-game .card .row{
+ padding-top: 2%;
+ border-top: 1px solid var(--fontabu);
 }
