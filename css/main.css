@@ -12,6 +12,10 @@
 
 /* CARD ATAS */
 
+.news-game{
+  padding: 0 13%;
+}
+
 .gambar-atas h5{
   font-weight: 400;
 }
@@ -19,26 +23,32 @@
 .col .card {
   background-color: var(--bgcolor);
 }
-.col .card-body .text-time{
+
+.col .card-body .text-time, .text-time{
   font-size: 11px;
   font-weight: 600;
   color: var(--fontabu);
 }
 
-.col .card-body .card-title{
+.col .card-body .card-title, .card-title{
   color: var(--fontcolor);
   font-weight: 700;
   font-size: 16px;
 }
 
-.col .card-body .card-text{
+.col .card-body .card-text, .card-text{
   color: var(--fontabu);
   font-weight: 500;
   font-size: 16px;
 }
 
-.col .card-body .text-readmore{
+.col .card-body .text-readmore, .text-readmore{
   color: var(--fontcolor);
   font-weight: 500;
   font-size: 16px;
+}
+
+/* CARD BAWAH */
+.article-game{
+  margin-top: 7%;
 }
