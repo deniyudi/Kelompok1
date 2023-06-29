@@ -65,3 +65,25 @@ img:hover{
  padding-top: 2%;
  border-top: 1px solid var(--fontabu);
 }
+
+/* PAGINATION */
+
+.pagination-list{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.pagination-list .pagination li a, li span{
+ background-color: var(--bgcolor);
+ color: var(--fontabu);
+ border: none;
+ font-weight: 500;
+}
+
+.pagination-list .pagination li a:hover,li span:hover{
+  color: var(--fontcolor);
+ }
+
+
+
