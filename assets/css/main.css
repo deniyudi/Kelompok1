@@ -54,13 +54,19 @@ section {
   /* padding-top: 4%; */
 }
 
+
 .slider-img .bungkus-card .row {
+  text-align: left;
   align-items: center;
-  padding: 5%;
+  padding: 4% 0;
+}
+
+.slider-img .bungkus-card .row .card-awal{
+  padding-left: 10%;
 }
 
 .slider-img .bungkus-card .card .row:hover {
-  opacity: 0.9;
+  background: #202020;
 }
 
 /* CAROUSEL SLIDE IMG  */
