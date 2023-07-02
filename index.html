@@ -3,31 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kelompok1</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <script src="js/bootstrap.min.js"></script>
-
-    <style>
-      * {
-        background: #121212;
-        color: #fff;
-      }
-
-      .bungkus-card .card {
-        border: none;
-      }
-
-      .slider-img {
-        margin-top: 10%;
-      }
-
-      .slider-img .bungkus-card .card .row:hover{
-        opacity: 0.9;
-      }
-    </style>
+    <title>Epic Games Store | Download & Play</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/plugin/font-awesome/css/font-awesome.min.css"
+    />
+    <link href="img/logo.png" rel="icon" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
-    <!-- gambar slide auto -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container bg-dark px-4 m-0">
+          <a class="navbar brand" href="index.html">
+              <img src="img/logo.png" alt="logo" style="width:50px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">STORE</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">DISTRIBUTION</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">SUPPORT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">|</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">UNREAL ENGINE</a>
+                  </li>
+              </ul>
+          </div>	
+        </div>
+      </nav>
+
+    <!-- navbar -->
+     <section class="navbar-2 py-4">
+      <nav class="navbar navbar-expand-sm navbar-dark mb-0" style="background-color: #121212; padding: 2% 2%;">
+        <div class="input-group me-2 ml-2 rounded " style="width: 23%;">
+          <span class="input-group-text border-0" id="basic-addon1" style=" background-color: #202020;"><i class="bi bi-search" style=" background-color: #202020;"></i></span>
+          <input type="text" class="form-control border-0" placeholder="Search Store" aria-label="search" aria-describedby="search" style=" background-color: #202020;color: #fff;">
+        </div>
+        <div class="collapse navbar-collapse px-2" id="collapsibleNavbar" style="width: 100%;">
+            <ul class="navbar-nav">
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="index.html">Discover</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">Browse</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+            </ul>
+          </div>	
+      </nav>
+     </section>
+    <!-- gambar slide autoo -->
     <section class="slider-img">
       <div class="container text-center">
         <div class="row align-items-start">
@@ -38,23 +87,44 @@
               data-bs-ride="carousel"
             >
               <div class="carousel-inner">
-                <div class="carousel-item active w-100">
+                <div class="carousel-item active">
+                  <img
+                    src="img/carousel7.jpg"
+                    class="d-block w-100 rounded"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
                   <img
                     src="img/5.jpg"
                     class="d-block w-100 rounded"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item w-100">
+                <div class="carousel-item">
                   <img
                     src="img/4.jpg"
                     class="d-block w-100 rounded"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item w-100">
+                <div class="carousel-item">
                   <img
-                    src="img/6.jpg"
+                    src="img/carousel5.jpg"
+                    class="d-block w-100 rounded"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/carousel12.jpg"
+                    class="d-block w-100 rounded"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/carousel11.jpg"
                     class="d-block w-100 rounded"
                     alt="..."
                   />
@@ -64,9 +134,38 @@
           </div>
           <div class="col-3">
             <div class="bungkus-card">
-              <div class="card mb-3">
-                <div class="row g-0" style="align-items: center; padding: 10%">
-                  <div class="col-md-4">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-2">
+                    <img
+                      src="img/aliens.jpg"
+                      class="img-fluid rounded"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <p class="card-awal">Aliens: Dark Descent</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-sm-2">
+                    <img
+                      src="img/fifa.jpg"
+                      class="img-fluid rounded"
+                      width="50px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <p class="card-awal">FIFA 23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-2">
                     <img
                       src="img/1pt.jpg"
                       class="img-fluid rounded"
@@ -74,36 +173,53 @@
                       alt="..."
                     />
                   </div>
-                  <div class="col-md-8">
-                    <h5 class="card-title">Fortnite</h5>
+                  <div class="col-md-5">
+                    <p class="card-awal">Fortnite</p>
                   </div>
                 </div>
               </div>
-              <div class="card mb-3">
+              <div class="card">
                 <div class="row g-0">
-                  <div class="col-md-4">
+                  <div class="col-md-2">
                     <img
-                      src="img/1pt.jpg"
+                      src="img/f1.jpg"
                       class="img-fluid rounded"
+                      width="50px"
                       alt="..."
                     />
                   </div>
-                  <div class="col-md-8">
-                    <h5 class="card-title">Fortnite</h5>
+                  <div class="col-md-5" style="padding-top: 8%;" >
+                    <p class="card-awal" style="display: flex; flex: wrap;">EA SPORT F1 2023</p>
                   </div>
                 </div>
               </div>
-              <div class="card mb-3">
+              <div class="card">
                 <div class="row g-0">
-                  <div class="col-md-4">
+                  <div class="col-md-2">
                     <img
-                      src="img/1pt.jpg"
+                      src="img/spiderman.jpg"
                       class="img-fluid rounded"
+                      width="50px"
                       alt="..."
                     />
                   </div>
-                  <div class="col-md-8">
-                    <h5 class="card-title">Fortnite</h5>
+                  <div class="col-md-5">
+                    <p class="card-awal">Marvel's SpiderMan: Miles...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-2">
+                    <img
+                      src="img/hogwarts.jpg"
+                      class="img-fluid rounded"
+                      width="50px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <p class="card-awal">Hogwarts Legacy</p>
                   </div>
                 </div>
               </div>
@@ -113,246 +229,294 @@
       </div>
     </section>
 
-    <!-- carousel-gambar -->
+    <!-- carousel-gambar 1 -->
 
     <section class="carousel-card-img">
       <div
         class="atas"
-        style="display: flex; justify-content: space-between; padding: 20px 10%"
       >
-        <h4><a href="news.html">Halooo</a></h4>
-        <div>
+        <!-- <h5>Game On Sale</h5> -->
+        <a href="news.html" class="pt-2">Game On Sale <span><i data-feather="chevron-right"></i></span></a>
+        <div class="pt-2">
           <button
-            class="prev"
+            class="prev" 
             data-bs-target="#carouselExample"
             data-bs-slide="prev"
           >
-            prev
+          <!-- <i class="fa-solid fa-chevron-left"></i> -->
+          <i data-feather="chevron-left"></i>
           </button>
           <button
             class="next"
             data-bs-target="#carouselExample"
             data-bs-slide="next"
           >
-            next
+          <i data-feather="chevron-right" class="btn-circle"></i>
           </button>
+          
         </div>
       </div>
       <div
         id="carouselExample"
         class="carousel slide"
-        style="display: flex; justify-content: center"
       >
-        <div class="carousel-inner" style="width: 80%">
+        <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="container text-center">
+            <div class="container">
               <div class="row align-items-start">
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/perish.jpg" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        PERISH
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-20%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 130,999</s></p>
+                          <p class="mt-0">IDR 86,999</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/fblmanager.jpg" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Football Manager 2023
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-10%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 99,999</s></p>
+                          <p class="mt-0">IDR 88,999</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/eternights.jpg" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        ETERNIGHTS
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-26%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 169,999</s></p>
+                          <p class="mt-0">IDR 100,000</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/nova lands.png" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        NOVA LANDS
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-20%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 119,999</s></p>
+                          <p class="mt-0">IDR 99,999</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/soulvars.jpg" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        SOULVARS
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-30%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 78,999</s></p>
+                          <p class="mt-0">IDR 49,999</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="container text-center">
+            <div class="container">
               <div class="row align-items-start">
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/exiles.jpg" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Conan Exiles
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-20%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 150,999</s></p>
+                          <p class="mt-0">IDR 129,999</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/lonely.png" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        One Lonely Outpost
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-10%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 99,999</s></p>
+                          <p class="mt-0">IDR 89,999</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/firecommander.jpg" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                       Fire Commander
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-50%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 99,999</s></p>
+                          <p class="mt-0">IDR 49,000</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/immortals.jpg" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Immortal Fenyx Rising
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-20%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 119,999</s></p>
+                          <p class="mt-0">IDR 99,999</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 20%">
+                <div class="col">
                   <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
+                    <img src="img/gravehouse.jpg" class="card-img-top rounded" alt="..." />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Gravehouse
                       </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-30%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 89,999</s></p>
+                          <p class="mt-0">IDR 49,999</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="container text-center">
-              <div class="row align-items-start">
-                <div class="col" style="width: 20%">
-                  <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
+        </div>
+    </section>
+
+
+    <!-- card 3 kolom -->
+
+    <section class="card-3kolom pt-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 0 2%;">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/content2.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-ket">
+              <p>Grand Theft Auto V</p>
+              <P style="color: #979797; font-size: 16px">Get ready for Grand Theft Auto brings grand Clasik adventure to life</P>
+              <P class="mt-5 fw">Play For Free</P>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/amnesia1.png" class="card-img-top rounded" alt="...">
+            <div class="card-ket">
+              <p>Amnesia The Bunker</p>
+              <P style="color: #979797; font-size: 16px">Overcome fear,perseverse,and make your way out alive</P>
+              <P class="mt-5">IDR 123,800</P>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/content3.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-ket">
+              <p>PAYDAY2</p>
+              <p style="color: #979797; font-size: 16px;">Get ready for the PAYDAY 2 event at no extra cost. Available at the end of June.</p>
+              <!-- <P>IDR 150,999</P> -->
+              <div class="card-text-btn d-flex justify-content-between mt-5">
+                <div class="tombol mt-2 ">
+                  <button class="btn btn-primary" type="button">-30%</button>
                 </div>
-                <div class="col" style="width: 20%">
-                  <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col" style="width: 20%">
-                  <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col" style="width: 20%">
-                  <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col" style="width: 20%">
-                  <div class="card">
-                    <img src="img/1pt.jpg" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
+                <div class="diskon" >
+                  <p class="coret mb-0 opacity-25" ><s>IDR 89,999</s></p>
+                  <p class="mt-0">IDR 49,999</p>
                 </div>
               </div>
             </div>
@@ -360,5 +524,1336 @@
         </div>
       </div>
     </section>
+
+    <!-- carousel gambar 2 -->
+    <section class="carousel-card-img">
+      <div
+        class="atas"
+      >
+        <!-- <h5>Game On Sale</h5> -->
+        <a href="news.html" class="pt-2">BIG Festival Games</a>
+        <div class="pt-2">
+          <button
+            class="prev" 
+            data-bs-target="#carouselExample2"
+            data-bs-slide="prev"
+          >
+          <!-- <i class="fa-solid fa-chevron-left"></i> -->
+          <i data-feather="chevron-left"></i>
+          </button>
+          <button
+            class="next"
+            data-bs-target="#carouselExample2"
+            data-bs-slide="next"
+          >
+          <i data-feather="chevron-right" class="btn-circle"></i>
+          </button>
+          
+        </div>
+      </div>
+      <div
+        id="carouselExample2"
+        class="carousel slide"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/togges.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        TOGGES
+                      </p>
+                      <p class="mt-0">IDR 108,999</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/iseered.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                      I SEE RED
+                      </p>
+                      <p class="mt-0">IDR 78,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/cursedtogolf.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Cursed To Golf
+                      </p>
+                      <p class="mt-0">IDR 108,999</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/touch.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Touch Type Vale
+                      </p>
+                      <p class="coret mb-0">IDR 119,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/blacktail.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Black Tail
+                      </p>
+                      <p class="mt-0">IDR 249,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/multiverse.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        What Lies In The Multiverse
+                      </p>
+                      <p class="mt-0">IDR 89,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/lonely.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        RECALL
+                      </p>
+                      <p class="mt-0">IDR 109,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/shipbraker.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Hardspace:Shipbreaker
+                      </p>
+                      <p class="mt-0">IDR 149,000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/itsawrap.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        It's A Wrap
+                      </p>
+                      <p class="mt-0">COMING SOON</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/drafters.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Dungeon Drafters
+                      </p>
+                      <p class="mt-0">IDR 49,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- carousel gambar 3 -->
+    <section class="carousel-card-img">
+      <div
+        class="atas"
+      >
+        <!-- <h5>Game On Sale</h5> -->
+        <a href="news.html" class="pt-2">Save on the hunter: Call of the Wild Add-Ons</a>
+        <div class="pt-2">
+          <button
+            class="prev" 
+            data-bs-target="#carouselExample3"
+            data-bs-slide="prev"
+          >
+          <!-- <i class="fa-solid fa-chevron-left"></i> -->
+          <i data-feather="chevron-left"></i>
+          </button>
+          <button
+            class="next"
+            data-bs-target="#carouselExample3"
+            data-bs-slide="next"
+          >
+          <i data-feather="chevron-right" class="btn-circle"></i>
+          </button>
+          
+        </div>
+      </div>
+      <div
+        id="carouselExample3"
+        class="carousel slide"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter1.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">ADD-ON</p>
+                      <p class="card-text mb-2">
+                        TheHunter:Call of the Wild-New England Mountains
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-20%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 130,999</s></p>
+                          <p class="mt-0">IDR 86,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter2.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">ADD-ON</p>
+                      <p class="card-text mb-2">
+                        TheHunter:Call of the Wild-Revontuli coast
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-10%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 99,999</s></p>
+                          <p class="mt-0">IDR 88,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter3.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">ADD ON</p>
+                      <p class="card-text mb-2">
+                        TheHunter:Call of the Wild-Mississippi Acres
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-26%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 169,999</s></p>
+                          <p class="mt-0">IDR 100,000</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter4.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">ADD ON</p>
+                      <p class="card-text mb-2">
+                        TheHunter:Call of the Wild-Hunter Power Pack
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-20%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 119,999</s></p>
+                          <p class="mt-0">IDR 99,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter5.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">ADD ON</p>
+                      <p class="card-text mb-2">
+                        TheHunter:Call of the Wild-Rancho Del Arroyo
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-30%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 78,999</s></p>
+                          <p class="mt-0">IDR 49,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter6.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">ADD-0N</p>
+                      <p class="card-text mb-2">
+                        TheHunter:Call of the Wild-The Awaora National Pack
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-20%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 150,999</s></p>
+                          <p class="mt-0">IDR 129,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter7.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">ADD-ON</p>
+                      <p class="card-text mb-2">
+                        TheHunter:Call of the Wild-Silver Ridge Feaks
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-10%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 99,999</s></p>
+                          <p class="mt-0">IDR 89,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter8.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">ADD-ON</p>
+                      <p class="card-text mb-2">
+                      TheHunter:Call of the Wild-Assorted Sidearms Pack
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-50%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 99,999</s></p>
+                          <p class="mt-0">IDR 49,000</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter9.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        TheHunter:Call of the Wild-Hirschfelden Veteran
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-20%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 119,999</s></p>
+                          <p class="mt-0">IDR 99,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/hunter10.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">ADD-ON</p>
+                      <p class="card-text mb-2">
+                        TheHunter:Call of the Wild-New England Mountains
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-30%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 89,999</s></p>
+                          <p class="mt-0">IDR 49,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Free games -->
+    <section class="freegame">
+        <div class="row rounded bg-dark" style="padding:0 3%; margin: 0 10%;">
+          <div class="freegame bg-dark mb-0">
+            <P class="bg-dark"><i class="fa fa-gift bg-dark"></i>Free Games</P>
+            <button class="btn btn-dark bg-dark" type="button" style="font-size: 15px;">VIEW MORE</button>
+          </div>
+          <div class="col-sm-6 bg-dark">
+            <div class="card mb-0">
+              <img src="img/naheulbeuk.jpg" class="card-img-top" alt="...">
+              <button class="border-0" style="background-color: #0c6cfc;" >Free Now</button>
+            </div>
+            <div class="card-ket bg-dark mt-0" style="padding-left: 0;">
+                <p class="bg-dark mb-0">The Dungeon Of Naheulbeuk</p>
+                <P class="bg-dark" style="color: #979797; font-size: 16px">Free 06 Jul - 13 Jul</P>
+            </div>
+          </div>
+          <div class="col-sm-6 bg-dark">
+            <div class="card mb-0">
+              <img src="img/grime.jpg" class="card-img-top" alt="...">
+              <button class="border-0" type="button">Coming Soon</button>
+            </div>
+            <div class="card-ket bg-dark" style="padding-left: 0;">
+                <p class="bg-dark mb-0 text-sm">GRIME</p>
+                <P class="bg-dark" style="color: #979797; font-size: 16px">Free 06 Jul - 13 Jul</P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- fornite experience -->
+    <section class="fortnite-experience">
+      <div class="row pb-5">
+        <div class="freegame">
+            <P>Fortnite Experiences</P>
+            <button class="tombol-kotak btn-dark mb-0 rounded p-2" type="button" >VISIT FORTNITE.COM</button>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href="#"><img src="img/fortnite2.jpg" class="rounded" width="100%" alt=""></a>
+                <div class="card-ket">
+                  <p class="title-kecil mb-1">ADD-ON</p>
+                  <p class="title mb-1">Fortnite</p>
+                  <P class="sub-title">Free</P>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href="#"><img src="img/fortnite1.jpg" width="100%" class="rounded" alt=""></a>
+                <div class="card-ket">
+                  <p class="title-kecil mb-1">ADD-ON</p>
+                  <p class="title mb-1">Unreal Editor For Fortnite</p>
+                  <P class="sub-title">Free</P>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href="#"><img src="img/carousel3.jpg" class="rounded" width="100%" alt=""></a>
+                <div class="card-ket ">
+                  <p class="title-kecil mb-1">BASE GAME</p>
+                  <p class=" title mb-1">Fortnite Zero Build: No-Build Battle Royale</p>
+                  <P class="sub-title">Free</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- list gambar 3 kolom  -->
+    <section class="list-gambar pb-4">
+      <div class="container">
+        <div class="row align-items-start">
+          <!-- kolom satu -->
+          <div class="col" style="border-right: 1px solid #828282;">
+            <div class="judul-atas" style="justify-content: space-between; display: flex; ">
+              <h3 style="font-size: 20px">Top Sellers</h3>
+              <button class="tombol-kotak btn btn-dark mb-0 rounded" type="button" >View More</button>
+            </div>
+            <div class="list-card-gambar">
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/theHunter.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body" style="padding-right: 0;">
+                        <p class="card-text mb-2">
+                          Call of the Wild
+                        </p>
+                        <div class="card-text-btn">
+                          <!-- <div class="tombol mt-2 "> -->
+                            <button class="btn btn-primary mb-1" type="button">-20%</button>
+                            <p class="coret mb-0 opacity-50"><s>IDR 130,999</s></p>
+                            <p class="mt-3">IDR 86,999</p>
+                          <!-- </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/dead insland2.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Dead Island 2
+                        </p>
+                        <p class="harga mt-0">IDR 659.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/Grand Theft Auto V.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Grand Theft Auto V
+                        </p>
+                        <p class="harga mt-0">IDR 299.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/Dead by Daylight.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Dead by Daylight
+                        </p>
+                        <p class="harga mt-0">IDR 321.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/Marvel’s Spider-Man.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Marvel’s Spider-Man: Miles Morales
+                        </p>
+                        <p class="harga mt-0">IDR 725.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- kolom dua -->
+
+          <div class="col" style="border-right: 1px solid #828282;">
+            <div class="judul-atas" style="justify-content: space-between; display: flex; ">
+              <h3 style="font-size: 20px">Most Played</h3>
+              <button class="tombol-kotak btn btn-dark mb-0 rounded" type="button" >View More</button>
+            </div>
+            <div class="list-card-gambar">
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/fortnite.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body" style="padding-right: 0;">
+                        <p class="card-text mb-2">
+                          Fortnite
+                        </p>
+                        <div class="card-text-btn">
+                          <!-- <div class="tombol mt-2 "> -->
+                            <button class="btn btn-primary mb-1" type="button">-20%</button>
+                            <p class="coret mb-0 opacity-50"><s>IDR 130,999</s></p>
+                            <p class="mt-3">IDR 86,999</p>
+                          <!-- </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/Rocket League®.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Rocket League
+                        </p>
+                        <p class="harga mt-0">Free</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/Grand Theft Auto V.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Grand Theft Auto V
+                        </p>
+                        <p class="harga mt-0">IDR 299.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/valorant.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Valorant
+                        </p>
+                        <p class="harga mt-0">Free</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/honkai.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Honkai : Star Rail
+                        </p>
+                        <p class="harga mt-0">IDR 100.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- kolom tiga -->
+          <div class="col">
+            <div class="judul-atas" style="justify-content: space-between; display: flex; ">
+              <h3 style="font-size: 20px">Top Upcoming Wishlisted</h3>
+              <button class="tombol-kotak btn btn-dark mb-0 rounded" type="button" >View More</button>
+            </div>
+            <div class="list-card-gambar">
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/The Lord of the Rings.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          The Lord Of The Ring
+                        </p>
+                        <p class="harga mt-0 opacity-50">Available 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/Witchfire.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Witchfire
+                        </p>
+                        <p class="harga mt-0 opacity-50">Available 09/02/23</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/homeworld3.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          Homeworld 3
+                        </p>
+                        <p class="harga mt-0 opacity-50">Available Feb 2024</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/Alan Wake 2.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body" style="padding-right: 0;">
+                        <p class="card-text mb-2">
+                          Alan Wake 2
+                        </p>
+                        <div class="card-text-btn d-flex justify-content-start ">
+                          <!-- <div class="tombol mt-2 "> -->
+                            <button class="btn btn-dark mb-1" type="button">NOW ON EPIC</button>
+                            <p class="coret mb-0 opacity-50" style="padding-left: 3%;">Coming Soon</p>
+                          <!-- </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bungkus-card">
+                <div class="card border-0">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <img src="img/PAYDAY 3 Pre-Purchase.jpg" class="img-fluid rounded" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="card-text mb-2 mt-3">
+                          PAYDAY 3 Pre-Purchase
+                        </p>
+                        <p class="harga mt-0 opacity-50">Available 10/2/24</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- card 3 kolom ke 2 -->
+    <section class="card-3kolom pt-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 0 2%;">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/legodrive.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-ket">
+              <p>Lego 2K Drive - New Rewards</p>
+              <P style="color: #979797; font-size: 16px">Play through 100 levels of Drive Pass Season 1 to earn 21 Free Rewards, and discover All-New Free Challenges across Bricklandia.</P>
+              <P class="mt-5">Play For Free</P>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/fallguys.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-ket">
+              <p>Fall Guys</p>
+              <P style="color: #979797; font-size: 16px">Dive into the Rainbow Rally Show! Play a collection of colorful Rounds & grab the free Rainbow Mermaid Costume.</P>
+              <P class="mt-5">Play For Free</P>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/conan.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-ket">
+              <p>Conan Exiles</p>
+              <p style="color: #979797; font-size: 16px;">An Open World Survival Game set in the brutal lands of Conan the Barbarian! Experience a Free Trial until June 29.</p>
+              <p class="mt-5">Play For Free</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gambar 5 view more  -->
+    <section class="fortnite-experience">
+      <div class="row pb-3">
+        <div class="freegame">
+            <P>Trending</P>
+            <button class="tombol-kotak btn-dark mb-0 rounded p-2" type="button" >View More</button>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/payday3.jpg" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <p class="card-title">BASE GAME</p>
+              <p class="card-text mb-2">
+                PAYDAY 3 Pre Purchase
+              </p>
+              <p style="color: #979797;">Available 09/21/23</p>
+              <p class="mt-0">IDR 86,999</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/fblmanager.jpg" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <p class="card-title">BASE GAME</p>
+              <p class="card-text mb-2">
+                Football Manager 2023
+              </p>
+              <p class="mt-0">IDR 88,999</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/blacktail.jpg" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <p class="card-title">BASE GAME</p>
+              <p class="card-text mb-2">
+                Black Tail
+              </p>
+              <p class="mt-0">Free</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/gods.png" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <p class="card-title">BASE GAME</p>
+              <p class="card-text mb-2">
+                Gods Unchained
+              </p>
+              <p class="coret mb-0">Free</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/workshop.png" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <p class="card-title">BASE GAME</p>
+              <p class="card-text mb-2">
+                Workshop Simulator
+              </p>
+              <button class="btn btn-dark" type="button" style="font-size: 10px;">NOW ON EPIC</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+    </section>
+
+    <!-- carousel gambar 4 -->
+    <section class="carousel-card-img">
+      <div
+        class="atas"
+      >
+        <!-- <h5>Game On Sale</h5> -->
+        <a href="news.html" class="pt-2">Recently Update</a>
+        <div class="pt-2">
+          <button
+            class="prev" 
+            data-bs-target="#carouselExample4"
+            data-bs-slide="prev"
+          >
+          <!-- <i class="fa-solid fa-chevron-left"></i> -->
+          <i data-feather="chevron-left"></i>
+          </button>
+          <button
+            class="next"
+            data-bs-target="#carouselExample4"
+            data-bs-slide="next"
+          >
+          <i data-feather="chevron-right" class="btn-circle"></i>
+          </button>
+          
+        </div>
+      </div>
+      <div
+        id="carouselExample4"
+        class="carousel slide"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/toweroffantasy.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Tower Of Fantasi
+                      </p>
+                      <p class="mt-0">Free</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/1pt.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        FORTNITE
+                      </p>
+                      <p class="mt-0">Free</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/cyberpunk.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Cyberpunk 2077
+                      </p>
+                      <p class="mt-0">IDR 706,000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/genshin.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Genshin Impact
+                      </p>
+                      <p class="coret mb-0">Free</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/honkai3rd.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Honkai Impact 3rd
+                      </p>
+                      <p class="mt-0">Free</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/northgard.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Northgard
+                      </p>
+                      <p class="mt-0">IDR 129,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/eve.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        EVE ONLINE
+                      </p>
+                      <p class="mt-0">Free</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/firecommander.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                      Fire Commander
+                      </p>
+                      <p class="mt-0">IDR 49,000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/immortals.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Immortal Fenyx Rising
+                      </p>
+                      <p class="mt-0">IDR 99,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/gravehouse.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Gravehouse
+                      </p>
+                      <p class="mt-0">IDR 49,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- carousel gambar 5 -->
+    <section class="carousel-card-img">
+      <div
+        class="atas"
+      >
+        <!-- <h5>Game On Sale</h5> -->
+        <a href="news.html" class="pt-2">Now On The Epic Games Store</a>
+        <div class="pt-2">
+          <button
+            class="prev" 
+            data-bs-target="#carouselExample5"
+            data-bs-slide="prev"
+          >
+          <!-- <i class="fa-solid fa-chevron-left"></i> -->
+          <i data-feather="chevron-left"></i>
+          </button>
+          <button
+            class="next"
+            data-bs-target="#carouselExample5"
+            data-bs-slide="next"
+          >
+          <i data-feather="chevron-right" class="btn-circle"></i>
+          </button>
+          
+        </div>
+      </div>
+      <div
+        id="carouselExample5"
+        class="carousel slide"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/samorost1.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Samorost 1
+                      </p>
+                      <button class="btn btn-dark mb-2" type="button" style="font-size: 10px;">NOW ON EPIC</button>
+                      <p class="mt-0">Free</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/samorost2.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Samorost 2
+                      </p>
+                      <button class="btn btn-dark mb-2" type="button" style="font-size: 10px;">NOW ON EPIC</button>
+                      <p class="mt-0">IDR 39,999</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/samorost3.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Samorost 3
+                      </p>
+
+                      <p class="mt-0">IDR 299,999</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/rifleman.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        The Rifleman
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-10%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 99,999</s></p>
+                          <p class="mt-0">IDR 89,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/doomsday.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Doomsday Last Survivor
+                      </p>
+                      <p class="mt-0">Free</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/kainga.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Kainga Seed Of Cavitalizion
+                      </p>
+                      <p class="mt-0">IDR 129,999</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/deverse.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Deverse World
+                      </p>
+                      <div class="card-text-btn">
+                        <div class="tombol mt-2 ">
+                          <button class="btn btn-primary" type="button">-10%</button>
+                        </div>
+                        <div class="diskon" >
+                          <p class="coret mb-0"><s>IDR 99,999</s></p>
+                          <p class="mt-0">IDR 89,999</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/yomi2.jpg" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                      Yomi 2
+                      </p>
+                      <p class="mt-0">Free</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/trafic.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        Trafic Brains 2
+                      </p>
+                      <button class="btn btn-dark mb-2" type="button" style="font-size: 10px;">NOW ON EPIC</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/shafted.png" class="card-img-top rounded" alt="..." />
+                    <div class="card-body">
+                      <p class="card-title">BASE GAME</p>
+                      <p class="card-text mb-2">
+                        SHAFTED
+                      </p>
+                      <button class="btn btn-dark mb-2" type="button" style="font-size: 10px;">NOW ON EPIC</button>
+                      <p class="mt-0">Free</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- card 3 kolom ke 3 -->
+    <section class="card-3kolom pt-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 0 2%;">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/salesandspecial.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-ket">
+              <p>Sales & Speials</p>
+              <P style="color: #979797; font-size: 16px">Save big on hit titles and hidden gems. There's always something on sale at the Epic Games Store!</P>
+              <P class="mt-5">Browse</P>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/freegames.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-ket">
+              <p>Free Games</p>
+              <P style="color: #979797; font-size: 16px">Explore free and free-to-play games from our collection. Come back every Thursday for a new free game!</P>
+              <P class="mt-5">Play Now</P>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/apps.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-ket">
+              <p>Apps</p>
+              <p style="color: #979797; font-size: 16px;">Enjoy some of the best Apps for music, gaming, creating, and more!</p>
+              <p class="mt-5">Browse</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+  <script>
+     feather.replace()
+  </script>
   </body>
 </html>

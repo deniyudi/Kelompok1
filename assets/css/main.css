@@ -1,0 +1,216 @@
+:root {
+  --bgcolor: #121212;
+  --fontcolor: #fff;
+  --fontabu: #797979;
+}
+
+* {
+  background-color: var(--bgcolor);
+  color: var(--fontcolor);
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+
+img:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+section {
+  padding: 0 10%;
+}
+
+.card{
+  background-color: var(--bgcolor);
+}
+
+/* TAMPILAN HOME */
+
+/* CAROUSEL ATAS  */
+
+/* .bungkus-card {
+  width: 80%;
+} */
+
+.bungkus-card .card {
+  /* border: none; */
+}
+
+.slider-img {
+  /* margin-top: 10%; */
+  /* padding-top: 4%; */
+}
+
+.slider-img .bungkus-card .row {
+  align-items: center;
+  padding: 5%;
+}
+
+.slider-img .bungkus-card .card .row:hover {
+  opacity: 0.9;
+}
+
+/* CAROUSEL SLIDE IMG  */
+
+.carousel-card-img .atas {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 2%;
+}
+.carousel-card-img .atas a{
+  
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--fontcolor);
+}
+
+.carousel-inner .col{
+  width: 20%;
+}
+
+.carousel-inner .col .card-body{
+  padding-left: 0;
+  padding-right: 0;
+  background: var(--bgcolor);
+}
+
+.carousel-inner .col .card-body .card-text{
+ font-weight: 500;
+}
+
+.carousel-inner .col .card-body .card-text-btn{
+  display: flex; justify-content: space-between;
+}
+
+.carousel-inner .col .card-body .tombol button{
+  font-size: 10px;
+}
+
+.carousel-inner .col .card-body .diskon{
+  text-align: right;
+  font-weight: 500;
+}
+
+.carousel-inner .col .card-body .diskon .coret s{
+ color: var(--fontabu);
+}
+
+
+
+.col .card-body .card,
+.card {
+  background-color: #121212;
+}
+.col .card-body .card-awal,
+.card-awal {
+  color: #fff;
+  font-size: 13px;
+}
+.col .card-body .card-ket,
+.card-ket {
+  padding: 5%;
+  color: #fff;
+  font-size: 20px;
+}
+.col .card-body .card-title,
+.card-title {
+  color: #797979;
+  font-weight: 700;
+  font-size: 11px;
+}
+.slider-img .bungkus-card .card .row:hover {
+  opacity: 0.6;
+}
+.bungkus-card .card {
+  border: none;
+}
+.freegame {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+.freegame button {
+  border: 1px solid #fff;
+}
+.freegame p {
+  font-size: 20px;
+}
+
+/* fornite experience */
+
+.fortnite-experience .row{
+  padding: 0 3%;
+}
+
+.fortnite-experience .row .freegame{
+ align-items: center;
+ padding: 1% 1%;
+}
+
+.fortnite-experience .row .thumbnail .card-ket {
+  padding-left: 0;
+ }
+
+.fortnite-experience .row .thumbnail .card-ket .title-kecil{
+  color: var(--fontabu);
+  font-weight: 700;
+  font-size: 11px;
+ }
+
+ .fortnite-experience .row .thumbnail .card-ket .title, .sub-title{
+  font-weight: 400;
+  font-size: 17px;
+ }
+
+
+ /* viewmore 5 card */
+ .fortnite-experience .row .col .card-body{
+  padding-left: 0;
+ }
+
+
+ /* list gambar 3 kolom */
+.list-card-gambar .bungkus-card .card .row{
+  /* background-color: #797979; */
+  padding: 6%;
+  padding-bottom: 0;
+  }
+
+.list-card-gambar .bungkus-card .card .row .card-body{
+    align-items: center;
+}
+
+.list-card-gambar .bungkus-card .card-body .card-text{
+  font-weight: 400;
+  font-size: 14x;
+}
+
+.list-card-gambar .bungkus-card .card-body .card-text-btn{
+  font-weight: 400;
+  font-size: 13px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-card-gambar .bungkus-card .card-body .card-text-btn button{
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.list-card-gambar .bungkus-card .card-body .harga{
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.tombol-kotak{
+  font-weight: 300;
+  font-size: 12px; 
+  border: 1px solid #fff;
+  background-color: #121212;
+}
+
+
+
+
