@@ -26,6 +26,12 @@
   }
 
 
+  .navbar .navbar-nav .nav-item1 a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
 /* TAMPILAN NEWS */
 
 /* CARD ATAS */
