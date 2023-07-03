@@ -9,11 +9,8 @@
   margin: auto;
 } */
 
-
-
-.section-footer{
+.section-footer {
 }
-
 
 footer {
   background-color: #202020;
@@ -22,39 +19,39 @@ footer {
   padding-top: 2%;
 }
 
-.footer-container{
+.footer-container {
   padding: 0 5%;
 }
 
-.gray-text{
+.gray-text {
   font-size: 16px;
   font-weight: 500;
 }
 
-.spaced-link a{
+.spaced-link a {
   font-weight: 200;
 }
 
-.footer-icon .row-icon{
+.footer-icon .row-icon {
   justify-content: space-between;
 }
 
 .footer-icon .row-icon .col-10 {
   display: flex;
   left: 20px;
-  padding:1% 0;
+  padding: 1% 0;
   margin-right: 10px; /* Memberikan jarak 10 piksel di sebelah kanan ikon */
   font-size: 35px; /* Atur ukuran ikon sesuai kebutuhan */
 }
 
-.footer-icon .row-icon .col-2{
+.footer-icon .row-icon .col-2 {
   float: right;
   font-size: 35px;
   margin-top: -4%;
   margin-right: 0;
 }
 
-.footer-icon .row-icon .col-2 a{
+.footer-icon .row-icon .col-2 a {
   float: right;
   font-size: 35px;
   margin-right: 4%;
@@ -75,13 +72,13 @@ footer {
   color: #ffffff;
 }
 
-.wraper-col-2, .wraper-col-3 {
+.wraper-col-2,
+.wraper-col-3 {
   display: flex;
   flex-direction: column;
   color: #ffffff;
   margin-top: 4rem;
 }
-
 
 .spaced-link a {
   margin-right: 2rem;
